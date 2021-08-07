@@ -9,7 +9,8 @@ phases:
       - mvn clean prepare-package war:exploded
   post_build:
     commands:
-      - echo "Entered the post-build phase"
+      - echo Build completed on `date`
+      - mv target/*.war PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-    - target\PensionDisbursement-Microservice-0.0.1-SNAPSHOT
+    - PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
