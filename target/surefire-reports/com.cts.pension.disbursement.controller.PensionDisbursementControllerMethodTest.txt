@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cts.pension.disbursement.controller.PensionDisbursementControllerMethodTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 95.868 s - in com.cts.pension.disbursement.controller.PensionDisbursementControllerMethodTest
