@@ -10,7 +10,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mv target/*.war PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
+      - mv target/* ./
 artifacts:
   files:
-    - PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
+    - PensionDisbursement-Microservice-0.0.1-SNAPSHOT
