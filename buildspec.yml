@@ -11,8 +11,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - mv target/* ./
-      - dir Pension*
-      - dir *.war
       - dir
 artifacts:
   files:
