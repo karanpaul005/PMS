@@ -13,4 +13,4 @@ phases:
       - mv target/deploy ./
 artifacts:
   files:
-    - deploy/**/*
+    - target/PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
