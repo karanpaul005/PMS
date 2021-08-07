@@ -7,7 +7,6 @@ phases:
 
   pre_build:
     commands:
-      - cd portal
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
