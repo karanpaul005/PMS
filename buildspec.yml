@@ -10,6 +10,8 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
+      - pwd
+      - cd target
 artifacts:
   files:
-    - target/PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
+    - target/*.war
