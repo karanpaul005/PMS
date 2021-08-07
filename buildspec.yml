@@ -7,14 +7,14 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      -echo Pre-build phase
+      - echo Pre-build phase
   build:
     commands:
-      -echo Build started on `date`
+      - echo Build started on `date`
       - mvn clean install
   post_build:
     commands:
-      -echo Build completed on `date`
+      - echo Build completed on `date`
 artifacts:
   files:
-    -target/PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
+    - target/PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
