@@ -1,0 +1,4 @@
+2021-08-03_18-46-39 [http-nio-8300-exec-1] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-08-03_18-46-39 [http-nio-8300-exec-1] ERROR c.c.p.d.e.GlobalExceptionHandler - Connection refused: no further information executing GET http://localhost:8200/pensioner/api/v1/PensionerDetailByAadhaar/420559429029
+2021-08-03_18-46-39 [http-nio-8300-exec-4] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-08-03_18-46-39 [http-nio-8300-exec-4] ERROR c.c.p.d.e.GlobalExceptionHandler - Connection refused: no further information executing GET http://localhost:8200/pensioner/api/v1/PensionerDetailByAadhaar/420559429029

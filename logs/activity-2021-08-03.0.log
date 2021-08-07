@@ -1,0 +1,73 @@
+2021-08-03_17-07-53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-03_17-07-53 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - Starting PensionDisbursementMicroserviceApplication using Java 15.0.2 on ROG with PID 20744 (D:\Cognizant\MFPE\Pension-Management\Pension-Management\PensionDisbursement-Microservice\target\classes started by Asus in D:\Cognizant\MFPE\Pension-Management\Pension-Management\PensionDisbursement-Microservice)
+2021-08-03_17-07-53 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7121ae96-38e9-3894-b77e-3bf91ad8c3e5
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.disbursement.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.disbursement.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-03_17-07-53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-03_17-07-53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-03_17-07-53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-03_17-07-53 [restartedMain] INFO  o.a.c.c.C.[.[.[/disbursement] - Initializing Spring embedded WebApplicationContext
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-03_17-07-53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/disbursement'
+2021-08-03_17-07-53 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[.[.[/disbursement] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03_17-07-53 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-03_17-07-53 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-08-03_17-07-53 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2021-08-03_17-07-53 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2021-08-03_17-07-53 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - Started PensionDisbursementMicroserviceApplication in 5.968 seconds (JVM running for 6.864)
+2021-08-03_17-07-53 [RMI TCP Connection(100)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-03_17-07-53 [RMI TCP Connection(100)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-03_18-46-39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-03_18-46-39 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - Starting PensionDisbursementMicroserviceApplication using Java 15.0.2 on ROG with PID 11864 (D:\Cognizant\MFPE\Pension-Management\Pension-Management\PensionDisbursement-Microservice\target\classes started by Asus in D:\Cognizant\MFPE\Pension-Management\Pension-Management\PensionDisbursement-Microservice)
+2021-08-03_18-46-39 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7121ae96-38e9-3894-b77e-3bf91ad8c3e5
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.disbursement.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.disbursement.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-03_18-46-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-03_18-46-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-03_18-46-39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-03_18-46-39 [restartedMain] INFO  o.a.c.c.C.[.[.[/disbursement] - Initializing Spring embedded WebApplicationContext
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2414 ms
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-03_18-46-39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[.[.[/disbursement] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03_18-46-39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-03_18-46-39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-03_18-46-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/disbursement'
+2021-08-03_18-46-39 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2021-08-03_18-46-39 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2021-08-03_18-46-39 [restartedMain] INFO  c.c.p.d.PensionDisbursementMicroserviceApplication - Started PensionDisbursementMicroserviceApplication in 8.23 seconds (JVM running for 9.795)
+2021-08-03_18-46-39 [http-nio-8300-exec-1] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-4] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-6] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-8] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-10] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-2] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-1] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-3] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [http-nio-8300-exec-5] INFO  c.c.p.d.c.PensionDisbursementController - In pension disburse controller
+2021-08-03_18-46-39 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-03_18-46-39 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
