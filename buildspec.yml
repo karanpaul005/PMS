@@ -1,17 +1,22 @@
 version: 0.2
+
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
 phases:
+
   pre_build:
     commands:
-      - echo "Entered the pre-build"
+      - cd portal
+      - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo "Entered the build phase"
-      - mvn clean prepare-package war:exploded
+      - echo Build started on `date`
+      
   post_build:
     commands:
       - echo Build completed on `date`
-      - mv target/* ./
-      - dir
+      - mv target/*.war PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
 artifacts:
   files:
     - PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
