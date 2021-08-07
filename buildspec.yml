@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - dir
-      - mv target/* ./
+      - mv target/*war ./
 artifacts:
   files:
-    - PensionDisbursement-Microservice-0.0.1-SNAPSHOT
+    - PensionDisbursement-Microservice-0.0.1-SNAPSHOT.war
