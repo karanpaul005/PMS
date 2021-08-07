@@ -10,8 +10,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - pwd
-      - cd target
+      - dir
 artifacts:
   files:
     - target/*.war
